@@ -16,7 +16,7 @@ import com.newlecture.webprj.entity.NoticeView;
 @Controller
 public class CustomerController {
 	
-	@Autowired
+	@Autowired		//컨테이너에 담긴 객체를 자동 참조
 	private NoticeDao noticeDao;
 	
 	@RequestMapping("/customer/notice")
